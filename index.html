@@ -5,10 +5,11 @@
   <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <title>自己紹介</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <header id="top"><h1>自己紹介</h1></header>
-  <nav>
+  <nav class="navigation">
     <ul>
       <li><a href="#my-profile" title="MY PROFILE">MY PROFILE</a></li>
       <li><a href="#comment" title="COMMENT">COMMENT</a></li>
@@ -20,27 +21,30 @@
     <section class="container">
       <header id="my-profile"><h4>~MY PROFILE~</h4></header>
       <article class="contents">
-        <div class="my-face-img">
-          <div class="img">
-            <img src="" alt="顔画像" srcset="">
+        <div class="profile-box">
+          <div class="my-face-img">
+            <div class="img-frame">
+              <img src="img/my-face-icon.jpg" alt="顔画像" srcset="">
+            </div>
+          </div>
+          <div class="profile">
+            <div class="profile-box">
+              <p class="profile-title">名前</p>
+              <p class="profile-txt">
+                <ruby>一ノ瀬 裕斗<rt>いちのせ ゆうと</rt></ruby>
+              </p>
+            </div>
+            <div class="profile-box">
+              <p class="profile-title">出身</p>
+              <p class="profile-txt">大阪府</p>
+            </div>
+            <div class="profile-box">
+              <p class="profile-title">趣味</p>
+              <p class="profile-txt">プログラミング</p>
+            </div>
           </div>
         </div>
-        <div class="profile">
-          <div class="profile-box">
-            <p class="profile-title">名前</p>
-            <p class="profile-txt">
-              <ruby>一ノ瀬 裕斗<rt>いちのせ ゆうと</rt></ruby>
-            </p>
-          </div>
-          <div class="profile-box">
-            <p class="profile-title">出身</p>
-            <p class="profile-txt">大阪府</p>
-          </div>
-          <div class="profile-box">
-            <p class="profile-title">趣味</p>
-            <p class="profile-txt">プログラミング</p>
-          </div>
-        </div>
+        
       </article>
     </section>
     <section class="container">

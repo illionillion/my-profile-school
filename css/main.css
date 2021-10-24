@@ -1,0 +1,61 @@
+*{
+  margin: auto;
+  padding: 0;
+}
+
+#top{
+  text-align: center;
+  width: 1080px;
+}
+
+nav{
+  text-align: center;
+  width: 1080px;
+  background-color: #2C2C2C;
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+#main-container{
+  text-align: center;
+  width: 1080px;
+}
+
+.profile-box{
+  display: flex;
+}
+
+.my-face-img{
+  width: 50%;
+}
+
+.img-frame{
+  width: 300px;
+}
+
+.img-frame img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.profile{
+  width: 50%;
+
+}
+
+footer{
+  width: 1080px;
+}
