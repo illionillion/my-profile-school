@@ -34,6 +34,18 @@ nav ul li a:hover{
   width: 1080px;
 }
 
+.container{
+ border: 1px solid #2C2C2C;
+ height: 600px;
+}
+
+.container .contents{
+ border: 1px solid #2C2C2C;
+ margin: 10px auto;
+  width: 95%;
+  height: 85%;
+}
+
 .container header h2{
   border: 1px solid #2C2C2C;
   margin: 10px auto;
@@ -42,6 +54,8 @@ nav ul li a:hover{
 
 .profile-box{
   display: flex;
+  height: 100%;
+
 }
 
 .my-face-img{
@@ -59,7 +73,59 @@ nav ul li a:hover{
 
 .profile{
   width: 50%;
+  /* height: 80%; */
+  border: 1px solid #2C2C2C;
+  margin: 10px ;
 
+}
+
+.profile-card{
+  height: 30%;
+  width: 90%;
+  border: 1px solid #2C2C2C;
+  margin: 10px auto;
+}
+
+.profile-title{
+  width: 95%;
+  border: 1px solid #2C2C2C;
+  margin: 5px auto;
+  /* text-align: left; */
+  letter-spacing: 5em;
+  text-indent: 5em;
+  border-top: 5px solid blue;
+  border-left: 3px solid blue;
+}
+
+.profile-txt{
+  width: 96%;
+  height: 70%;
+  border: #2C2C2C 1px solid;
+  font-size: 1.5em;
+}
+
+.profile-txt-mini{
+  font-size: 1rem;
+}
+
+.comment-box{
+  overflow: hidden;/*float解除*/
+
+}
+.comment-box .comment-img-space{
+  float: right;/*画像の位置を右下にしたい場合はright*/
+  /* height: 5.3em; */
+  height: 3em;/*画像上の余白の高さ*/
+}
+.comment-box .comment-img{
+  float: right;/*画像の位置を右下にしたい場合はright*/
+  clear: both;/*.spaceのfloat解除*/
+  margin: 0.6em 0.4em 0 1em ;
+  /*画像の周りの余白*/
+  width: 30%;
+}
+.comment-box .comment-img img{
+  width: 100%;
 }
 
 footer{
