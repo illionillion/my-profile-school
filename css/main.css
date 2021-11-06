@@ -34,6 +34,12 @@ nav ul li a:hover{
   width: 1080px;
 }
 
+.container header h2{
+  border: 1px solid #2C2C2C;
+  margin: 10px auto;
+  width: 45%;
+}
+
 .profile-box{
   display: flex;
 }
