@@ -62,8 +62,33 @@ nav ul li a:hover{
   width: 50%;
 }
 
+
 .img-frame{
   width: 300px;
+  position:relative;
+}
+
+.img-frame::before{
+  content:"";
+  display:block;
+  width:50px;
+  height:35%;
+  position:absolute;
+  top:-10%;
+  left:-10%;
+  border-top: 5px solid red;
+  border-left: 5px solid red;
+}
+.img-frame::after{
+  content:"";
+  display:block;
+  width:50px;
+  height:35%;
+  position:absolute;
+  bottom:-10%;
+  right:-10%;
+  border-bottom: 5px solid red;
+  border-right: 5px solid red;
 }
 
 .img-frame img{
