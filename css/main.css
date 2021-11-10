@@ -56,18 +56,6 @@ nav ul li a:hover{
   height: 900px;
 }
 
-.skills-contents{
-  height: 90%;
-}
-
-.skill-card{
-  border: #2C2C2C 1px solid ;
-  width: 95%;
-  height: 30%;
-  margin: 15px auto;
-  display: flex;
-}
-
 footer{
   width: 1080px;
 }
