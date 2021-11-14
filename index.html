@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/profile.css">
   <link rel="stylesheet" href="css/comment.css">
   <link rel="stylesheet" href="css/myskills.css">
+  <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
   <header id="top"><h1>自己紹介</h1></header>
@@ -108,23 +109,23 @@
         </div>
       </article>
     </section>
-    <section class="container">
+    <section class="container form-container">
       <header id="form"><h2>~FORM~</h2></header>
       <article class="contents">
-        <form action="">
+        <form class="contact-form" action="">
           <div class="form-item">
-            <label for="user-name"><p>名前</p></label>
+            <label for="user-name"><div><p>名前</p></div></label>
             <input type="text" name="user-name" id="user-name" placeholder="名前">
           </div>
           <div class="form-item">
-            <label for="user-email"><p>メールアドレス</p></label>
+            <label for="user-email"><div><p>メールアドレス</p></div></label>
             <input type="email" name="user-email" id="user-email" placeholder="メールアドレス">
           </div>
           <div class="form-item">
-            <label for="user-message"><p>メッセージ</p></label>
-            <textarea name="user-message" id="user-message" cols="30" rows="10" placeholder="メッセージ"></textarea>
+            <label for="user-message"><div><p>メッセージ</p></div></label>
+            <textarea name="user-message" id="user-message" cols="30" rows="10" placeholder="メッセージ" ></textarea>
           </div>
-          <div class="form-item">
+          <div class="form-item form-submit">
             <input type="button" value="送信">
           </div>
         </form>

@@ -1,0 +1,42 @@
+.form-container{
+    height: 650px;  
+}
+
+.contact-form{
+    width: 80%;
+    height: 95%;
+    margin: 10px auto;
+    border: #2C2C2C 1px solid;
+}
+
+.form-item{
+    /* border: #2C2C2C 1px solid; */
+    width: 90%;
+    /* height: 15%; */
+    margin: 10px auto;
+}
+
+.form-item input ,.form-item textarea{
+    width: 100%;
+    margin: 2px;
+}
+
+.form-item textarea{
+    resize: none;
+    height: 300px;
+}
+
+label div{
+    width: 100%;
+}
+label div p{
+    margin-left: 0;
+    text-align: left;
+    width: 30%;
+    border: #2C2C2C 1px solid;
+}
+
+.form-submit input{
+    width: 30%;
+    border-radius: 25px;
+}
