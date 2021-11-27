@@ -6,7 +6,18 @@
 
 #top{
   text-align: center;
+  display: flex;
   width: 1080px;
+}
+
+#top h1{
+  width: 30%;
+  margin-left: 0;
+}
+
+#top h1 a{
+  text-decoration: none;
+  color: #2C2C2C;
 }
 
 nav{
@@ -48,9 +59,14 @@ nav ul li a:hover{
 }
 
 .container header h2{
-  border: 1px solid #2C2C2C;
-  margin: 10px auto;
+  /* border: 1px solid #2C2C2C; */
+  margin: 15px auto;
   width: 45%;
+  color: #fff;
+  /* background: linear-gradient(45deg, rgba(255,85,102,1) 0%,rgba(255,137,109,1) 100%); */
+  /* background: linear-gradient(to right, rgba(24,125,221,1) 0%,rgba(0,195,193,1) 100%); */
+  background: linear-gradient(45deg, rgba(254,212,117,1) 0%,rgba(229,61,93,1) 50%,rgba(194,49,134,1) 70%,rgba(156,56,187,1) 100%);
+  box-shadow: 0 5px 25px rgba(0,0,0,.15);
 }
 
 footer{
