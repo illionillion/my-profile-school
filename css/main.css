@@ -30,15 +30,23 @@
 nav{
   text-align: center;
   width: 1080px;
+  height: 56px;
   background-color: #2C2C2C;
 }
 
 nav ul{
   display: flex;
   list-style-type: none;
+  /* margin: auto; */
+
 }
 
+nav ul li {
+  margin: 10px auto;
+  /* width: 30%; */
+}
 nav ul li a{
+  font-size: 1.2rem;
   color: #fff;
   text-decoration: none;
 }
