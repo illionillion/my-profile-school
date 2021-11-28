@@ -11,13 +11,20 @@
 }
 
 #top h1{
-  width: 30%;
-  margin-left: 0;
+  /* width: 50%; */
+  /* margin-left: 0; */
+  flex: 1;
 }
 
 #top h1 a{
   text-decoration: none;
   color: #2C2C2C;
+}
+
+#top div{
+  /* width: 100%; */
+  text-align: right;
+  flex: 1;
 }
 
 nav{
